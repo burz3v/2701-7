@@ -9,7 +9,7 @@ pipeline {
             }
         stage('Show files') {
             steps {
-                bat 'dir'
+                bat dir
             }
         }
     }
